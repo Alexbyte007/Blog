@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>写文章 - 我的个人博客</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">写文章</h1>
+      <nav class="nav-links">
+        <a href="/">首页</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="post-detail">
+      <h2>发表新文章</h2>
+      <form id="new-post-form">
+        <div class="form-group">
+          <label>标题：</label>
+          <input type="text" id="title" required />
+        </div>
+        <div class="form-group">
+          <label>作者：</label>
+          <input type="text" id="author" />
+        </div>
+        <div class="form-group">
+          <label>标签（用逗号分隔）：</label>
+          <input type="text" id="tags" />
+        </div>
+        <div class="form-group">
+          <label>摘要：</label>
+          <textarea id="summary" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <label>内容：</label>
+          <textarea id="content" rows="8" required></textarea>
+        </div>
+        <button type="submit" class="button-primary">发布</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">后台发布页面</div>
+  </footer>
+
+  <script src="/admin.js"></script>
+</body>
+</html>

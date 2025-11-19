@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>我的个人博客 - 首页</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">我的个人博客</h1>
+      <nav class="nav-links">
+        <a href="/">首页</a>
+        <a href="/admin.html">写文章</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <input type="text" id="search" placeholder="搜索标题或内容..." />
+      <input type="text" id="tagFilter" placeholder="按标签筛选，例如：架构" />
+      <button id="searchBtn">搜索</button>
+    </section>
+
+    <section>
+      <h2>最新文章</h2>
+      <div id="posts" class="post-list">正在加载文章...</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">基于 Node.js + Express + 三层架构的个人博客示例</div>
+  </footer>
+
+  <script src="/home.js"></script>
+</body>
+</html>
