@@ -1,5 +1,5 @@
 
-一个包含 **后端 Express 三层架构** + **前端 Next.js 16 + Tailwind CSS** 的完整个人博客项目，主题围绕 **AI Infra / MLOps**，支持写作、管理、标签与归档浏览等功能。
+一个包含 **后端 Express 三层架构** + **前端 Next.js 16 + Tailwind CSS** 的完整个人博客项目，支持写作、管理、标签与归档浏览等功能。
 
 ---
 
